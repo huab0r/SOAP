@@ -1,0 +1,11 @@
+1a) 
+-Server starten
+-CMD in src Ordner des Projekts öffnen
+-"wsimport -d ./ -keep -p gen http://localhost:1234/ComputationService?wsdl" eingeben
+-Projekt in Eclipse aktualisieren
+-Client ausführen
+
+b)
+Mithilfe eines Thread.sleep habe ich mit mehreren Clients gleichzeitig angefragt und alles hat geklappt.
+
+c)
